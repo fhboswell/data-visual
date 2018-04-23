@@ -7161,3 +7161,531 @@ Processing by Visual1Controller#index as HTML
 Completed 200 OK in 65ms (Views: 62.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-23 00:29:46 -0700
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+Redirected to http://localhost:3000/done/index
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/done/index" for 127.0.0.1 at 2018-04-23 00:29:46 -0700
+Processing by DoneController#index as HTML
+  Rendering done/index.html.erb
+  Rendered done/index.html.erb (369.6ms)
+Completed 200 OK in 376ms (Views: 375.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 00:29:53 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (12.3ms)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:29:54 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (0.4ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 177ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:30:03 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (7.7ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 73ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:30:54 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.6ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:32:09 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:32:45 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:33:13 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.4ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:33:15 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.2ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 79ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:33:29 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 68ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:37:30 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 81ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual1/index" for 127.0.0.1 at 2018-04-23 00:38:20 -0700
+Processing by Visual1Controller#index as HTML
+  Rendering visual1/index.html.erb within layouts/application
+  Rendered visual1/index.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual1/index" for 127.0.0.1 at 2018-04-23 00:38:21 -0700
+Processing by Visual1Controller#index as HTML
+  Rendering visual1/index.html.erb within layouts/application
+  Rendered visual1/index.html.erb within layouts/application (2.2ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 67ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:38:32 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.5ms)
+Completed 200 OK in 56ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:40:22 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:41:04 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:41:53 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 75ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:44:48 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.4ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 66ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:45:37 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:48:00 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 74ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:48:31 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 67ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:48:46 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 69ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:49:29 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (1.4ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 73ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:50:30 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (1.4ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 66ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:52:23 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navigation.html.erb (0.5ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 78ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual1/index" for 127.0.0.1 at 2018-04-23 00:54:10 -0700
+Processing by Visual1Controller#index as HTML
+  Rendering visual1/index.html.erb within layouts/application
+  Rendered visual1/index.html.erb within layouts/application (2.5ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 73ms (Views: 70.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual1/index" for 127.0.0.1 at 2018-04-23 00:55:52 -0700
+Processing by Visual1Controller#index as HTML
+  Rendering visual1/index.html.erb within layouts/application
+  Rendered visual1/index.html.erb within layouts/application (2.8ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 97ms (Views: 94.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:56:00 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.6ms)
+  Rendered shared/_navigation.html.erb (0.5ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 89ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:56:21 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:57:02 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (1.8ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 70ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:57:09 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 73ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:57:10 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navigation.html.erb (0.5ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 71ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:57:11 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 70ms (Views: 67.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:57:28 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 74ms (Views: 72.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:57:29 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 68ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:57:35 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (1.6ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 56ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 00:59:36 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (1.7ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:00:21 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 67ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:00:57 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:01:08 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (8.7ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 75ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:01:20 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 67ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:01:34 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:01:56 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 74ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:02:28 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.4ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 96ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:03:07 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.2ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 90ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual1/index" for 127.0.0.1 at 2018-04-23 01:03:38 -0700
+Processing by Visual1Controller#index as HTML
+  Rendering visual1/index.html.erb within layouts/application
+  Rendered visual1/index.html.erb within layouts/application (2.2ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.2ms)
+Completed 200 OK in 68ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:04:46 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.0ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:04:47 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 76ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:05:46 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 69ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:07:03 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (2.1ms)
+  Rendered shared/_navigation.html.erb (0.4ms)
+  Rendered shared/_instructions.html.erb (0.4ms)
+  Rendered shared/_footer.html.erb (0.4ms)
+Completed 200 OK in 83ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-23 01:07:58 -0700
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb
+  Rendered welcome/index.html.erb (15.6ms)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual1/index" for 127.0.0.1 at 2018-04-23 01:07:59 -0700
+Processing by Visual1Controller#index as HTML
+  Rendering visual1/index.html.erb within layouts/application
+  Rendered visual1/index.html.erb within layouts/application (2.6ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.2ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 73ms (Views: 69.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/visual2/index" for 127.0.0.1 at 2018-04-23 01:09:09 -0700
+Processing by Visual2Controller#index as HTML
+  Rendering visual2/index.html.erb within layouts/application
+  Rendered visual2/index.html.erb within layouts/application (1.9ms)
+  Rendered shared/_navigation.html.erb (0.3ms)
+  Rendered shared/_instructions.html.erb (0.3ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+Completed 200 OK in 77ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
