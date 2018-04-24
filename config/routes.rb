@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'visual3/index'
+
   get 'visual2/index'
 
   get 'visual1/index'
